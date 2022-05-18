@@ -1,0 +1,113 @@
+body {
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    background-color: hsl(217, 54%, 11%);
+    color: hsl(0, 0%, 100%);
+}
+
+#container {
+    border: 1px 0 solid;
+    /* box-shadow: 12px 12px 2px 1px hsl(216, 50%, 16%); */
+    background-color: hsl(216, 50%, 16%);
+    display: inline;
+    width:17em;
+    height: 29em;
+    border-radius: .8em;
+    box-shadow: 0 0 15px 15px hsl(214, 51%, 8%);
+}
+ #cons {
+     display: flex;
+     justify-content: center;
+     margin: 7% auto;
+ }
+
+ #imageNFT {
+     width: 90%;
+     margin: 5% 5%;
+     border-radius: .8em;
+ }
+
+ div #letters {
+     margin: 0 5%;
+ }
+
+ #NFTinfo {
+     border-bottom: 1px hsl(215, 32%, 27%) solid;
+     padding-bottom: 7%;
+     display: flex;
+     justify-content: space-between;
+     /* margin: 0 3%; */
+ }
+
+ #info {
+     font-size: 16px;
+     font-weight: 300;
+     color: hsl(215, 51%, 70%);
+ }
+
+ #NFTname {
+     font-weight: 600;
+ }
+
+ #NFTprice {
+     font-weight: 400;
+     color: hsl(178, 100%, 50%);
+     display: flex;
+     align-items: center;
+ }
+ #NFTprice span {
+     padding-left: 0.5em;
+
+ }
+
+ #NFTprice img {
+    /* padding-left: 0.5em; */
+    width: 1em;
+    height: 1em;
+ }
+
+ #NFTdays {
+     font-weight: 400;
+     color: hsl(178, 100%, 50%);
+     display: flex;
+     align-items: center;
+ }
+
+ #NFTdays span {
+     padding-left: 0.5em;
+    color: hsl(215, 51%, 70%);
+ }
+
+ #NFTdays img {
+     /* padding-left: 0.5em; */
+     width: 1em;
+     height: 1em;
+ }
+
+
+ section img {
+     width: 1.4em;
+     height: 1.4em;
+ }
+
+#letters section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#creator {
+    margin-left: 1em;
+    font-weight: 300;
+    color: hsl(215, 51%, 70%);
+    font-size: .8em;
+}
+
+#creator span {
+font-weight: 400;
+color: white;
+}
+
+#NFTinfo {
+    font-size: .7em;
+}
