@@ -6,6 +6,7 @@ body {
 }
 
 #container {
+    margin-top: 4rem;
     border: 1px 0 solid;
     /* box-shadow: 12px 12px 2px 1px hsl(216, 50%, 16%); */
     background-color: hsl(216, 50%, 16%);
@@ -27,9 +28,39 @@ body {
      border-radius: .8em;
  }
 
+ #view {
+    width: 50%;
+    border-radius: .8em;
+    display: flex;
+    position: absolute;
+ }
+
+ #view span {
+    border: 1px white solid;
+    height: 100%;
+    background-color: rgba(4, 139, 176, .7);
+    height: 15em;
+    width: 15em;
+    margin: 1em 1em;
+    border-radius: .8em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ #view span img {
+    width: 2.5em;
+    height: 2.5em;
+ }
+
+ #view .unview {
+     opacity: 0;
+ }
+
  div #letters {
      margin: 0 5%;
  }
+
 
  #NFTinfo {
      border-bottom: 1px hsl(215, 32%, 27%) solid;
@@ -47,6 +78,7 @@ body {
 
  #NFTname {
      font-weight: 600;
+    color: hsl(178, 100%, 50%);
  }
 
  #NFTprice {
@@ -110,4 +142,8 @@ color: white;
 
 #NFTinfo {
     font-size: .7em;
+}
+
+a {
+    text-decoration: none;
 }

@@ -28,9 +28,19 @@
   <body>
     <div id="cons">
       <div id="container">
+        <span id="view">
+          <a href="/home">
+            <span class="unview" id="viewable">
+              <img src="images/icon-view.svg" alt="" />
+            </span>
+          </a>
+        </span>
         <img id="imageNFT" src="images/image-equilibrium.jpg" alt="" />
+
         <section id="letters">
-          <span id="NFTname">Equilibrium #3429</span>
+          <a href="">
+            <span id="NFTname">Equilibrium #3429</span>
+          </a>
           <p id="info">Our Equilibrium collection promotes balance and calm.</p>
           <p id="NFTinfo">
             <span id="NFTprice">
@@ -44,10 +54,13 @@
           </p>
           <section>
             <img src="images/image-avatar.png" alt="" />
-            <p id="creator">Creation of <span>Jules Wyvern</span></p>
+            <p id="creator">
+              Creation of <a href=""><span>Jules Wyvern</span></a>
+            </p>
           </section>
         </section>
       </div>
     </div>
+    <script src="app.js"></script>
   </body>
 </html>
